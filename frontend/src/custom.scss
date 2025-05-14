@@ -54,8 +54,13 @@ body {
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  line-clamp: value; /* this is a placeholder; actual support may vary */
 }
 
 .user-info {
   min-width: 800px;
 }
+
+.navbar-nav .nav-item .nav-link {
+   color: #FFFFFF;
+} 
